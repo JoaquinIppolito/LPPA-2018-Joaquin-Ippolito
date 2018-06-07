@@ -1,4 +1,4 @@
-console.log('bysda');
+console.log('asd');
 
 var play = function ()
 {
@@ -6,7 +6,9 @@ var play = function ()
    Board.updateCells(cells);
 }
 
-window.onload = function () {
+window.onload = function ()
+{
+  Board.createCells()
   var btnPlay = Board.GetPlayButton();
   btnPlay.onclick = play;
 }
